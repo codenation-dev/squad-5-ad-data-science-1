@@ -26,6 +26,11 @@ Navigate to project folder:
 cd final_project_squad5
 ```
 
+Install requirements.txt
+```
+pip3 install -r requirements.txt
+```
+
 Run using an example portfolio:
 ```
 python main.py run
