@@ -1,4 +1,4 @@
-# [`Final Project Squad5`]
+# Final Project Squad5
 > The goal of this product is to provide an automated service that recommends new leads to a given user based on their current list of customers (Portfolio).
 
 ## Stakeholders
@@ -12,3 +12,32 @@
 | Data Scientist       | Author                 | [`Pedro Bueno de Almeida`] |
 | Data Scientist       | Author                 | [`Wagner Ferreira da Silva`] |
 
+## Usage
+> See how simple that is to use this service.
+
+
+Clone this repository:
+```
+git clone https://github.com/codenation-dev/squad-5-ad-data-science-1.git
+```
+
+Navigate to project folder:
+```
+cd final_project_squad5
+```
+
+Run using an example portfolio:
+```
+python main.py run
+```
+
+Or run using your own portfolio (See [specifications](./docs/portfolio_specification.md)):
+```
+python main.py run --portfolio "csv_with_companies_ids.csv"
+```
+
+New **recommended leads** are stored at recommendations.txt
+
+You can check the perfomance metrics of your *run* on performance.json
+
+Check this [Jupyter Notebook](./docs/foo.py) for a deep explanation about what is happening under the hood. 
