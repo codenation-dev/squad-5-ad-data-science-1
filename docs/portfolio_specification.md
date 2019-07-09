@@ -8,7 +8,7 @@ The "market" is represented by the file "estaticos_market.csv" located at `../wo
 ## Using a personalized portfolio
 > See how can you provide your own portfolio.
 
-You can use your own subset of the "market" which will represents your portfolio, which needs to follow the **Portfolio structure** below.
+You can use your own subset of the "market" which will represents your portfolio, and needs to follow the **Portfolio structure** below.
 
 ## Portfolio structure
 > The table below summarizes a portfolio structure.
