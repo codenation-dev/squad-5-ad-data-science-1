@@ -16,29 +16,29 @@ We are the Squad5 of the **AceleraDev Data Science 2019** acceleration course.
 See how simple that is to use this service.
 
 
-1. Clone this repository:
+**1.** Clone this repository:
 ```
 git clone https://github.com/codenation-dev/squad-5-ad-data-science-1.git
 ```
 
-2. Download market data from [Kaggle](https://www.kaggle.com/argonalyst/aceleradev-ds-final-project-2019) and place it inside `/workspace/data`
+**2.** Download market data from [Kaggle](https://www.kaggle.com/argonalyst/aceleradev-ds-final-project-2019) and place it inside `/workspace/data`
 
-3. Navigate to project folder:
+**3.** Navigate to project folder:
 ```
 cd final_project_squad5
 ```
 
-4. Install requirements.txt
+**4.** Install requirements.txt
 ```
 pip install -r requirements.txt
 ```
 
-5. Run using an example portfolio:
+**5.** Run using an example portfolio:
 ```
 python main.py run
 ```
 
-6. Or run using your own portfolio (See [specifications](./docs/portfolio_specification.md)):
+**6.** Or run using your own portfolio (See [specifications](./docs/portfolio_specification.md)):
 ```
 python main.py run --portfolio "csv_with_companies_ids.csv"
 ```
