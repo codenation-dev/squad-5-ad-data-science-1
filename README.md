@@ -21,7 +21,7 @@ See how simple that is to use this service.
 git clone https://github.com/codenation-dev/squad-5-ad-data-science-1.git
 ```
 
-**2.** Download market data from [Kaggle](https://www.kaggle.com/argonalyst/aceleradev-ds-final-project-2019) and place it inside:
+**2.** Download [market data](https://www.kaggle.com/argonalyst/aceleradev-ds-final-project-2019) and place it inside:
 ```
 /workspace/data
 ```
