@@ -1,8 +1,8 @@
 # Final Project Squad5
-> The goal of this product is to provide an automated service that recommends new leads to a given user based on their current list of customers (Portfolio).
+The goal of this product is to provide an automated service that recommends new leads to a given user based on their current list of customers (Portfolio).
 
 ## Stakeholders
-> We are the Squad5 of the **AceleraDev Data Science 2019** acceleration course.
+We are the Squad5 of the **AceleraDev Data Science 2019** acceleration course.
 
 | Role                 | Responsibility         | Full name                |
 | -----                | ----------------       | -----------              |
@@ -13,30 +13,32 @@
 | Data Scientist       | Author                 | [`Wagner Ferreira da Silva`] |
 
 ## Usage
-> See how simple that is to use this service.
+See how simple that is to use this service.
 
 
-Clone this repository:
+1. Clone this repository:
 ```
 git clone https://github.com/codenation-dev/squad-5-ad-data-science-1.git
 ```
 
-Navigate to project folder:
+2. Download market data from [Kaggle](https://www.kaggle.com/argonalyst/aceleradev-ds-final-project-2019) and place it inside `/workspace/data`
+
+3. Navigate to project folder:
 ```
 cd final_project_squad5
 ```
 
-Install requirements.txt
+4. Install requirements.txt
 ```
 pip install -r requirements.txt
 ```
 
-Run using an example portfolio:
+5. Run using an example portfolio:
 ```
 python main.py run
 ```
 
-Or run using your own portfolio (See [specifications](./docs/portfolio_specification.md)):
+6. Or run using your own portfolio (See [specifications](./docs/portfolio_specification.md)):
 ```
 python main.py run --portfolio "csv_with_companies_ids.csv"
 ```
