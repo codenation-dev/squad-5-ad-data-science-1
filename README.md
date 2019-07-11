@@ -28,7 +28,7 @@ cd final_project_squad5
 
 Install requirements.txt
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Run using an example portfolio:
