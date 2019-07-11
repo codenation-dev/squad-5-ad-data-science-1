@@ -46,8 +46,8 @@ python main.py run
 python main.py run --portfolio "csv_with_companies_ids.csv"
 ```
 
-New **recommended leads** are stored at recommendations.txt
+New **recommended leads** are stored at `recommendations.txt`
 
-You can check the perfomance metrics of your *run* on performance.json
+You can check the perfomance metrics of your *run* on `performance.json`
 
 Check this [Jupyter Notebook](./docs/foo.py) for a deep explanation about what is happening under the hood. 
