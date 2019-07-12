@@ -61,7 +61,7 @@ def features(estaticos_market):
     def filter_null_porcent(col):
         nulls_value = estaticos_market[col].isna().sum()
         percentage = 100*(nulls_value / estaticos_market.shape[0])
-        return percentage <= 70.0
+        return percentage <= 10.0
     
     def filter_col_numbers(col):
         dtype = estaticos_market_filter[col].dtypes
