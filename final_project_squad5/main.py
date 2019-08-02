@@ -216,7 +216,7 @@ def run(**kwargs):
 
     if using_portfolio == False:
         portfolio_name = 'estaticos_portfolio1'
-        portfolio_file = pd.read_csv('../'+data_path+'/'+'portfolio_name'+'.csv')
+        portfolio_file = pd.read_csv('../'+data_path+'/'+portfolio_name+'.csv')
     
     portfolio = set_files(portfolio_file, estaticos_market)
     
