@@ -6,11 +6,9 @@ We are the Squad5 of the **AceleraDev Data Science 2019** acceleration course.
 
 | Role                 | Responsibility         | Full name                |
 | -----                | ----------------       | -----------              |
-| Data Scientist       | Author                 | [`Claudio de Andrade Silva`] |
 | Data Scientist       | Author                 | [`Igor Lucena Peixoto Andrezza`] |
 | Data Scientist       | Author                 | [`Octávio Santana`] |
 | Data Scientist       | Author                 | [`Pedro Bueno de Almeida`] |
-| Data Scientist       | Author                 | [`Wagner Ferreira da Silva`] |
 
 ## Usage
 See how simple that is to use this service.
@@ -50,4 +48,4 @@ New **recommended leads** are stored at `recommendations.txt`
 
 You can check the perfomance metrics of your *run* on `performance.json`
 
-Check this [Jupyter Notebook](./docs/foo.py) for a deep explanation about what is happening under the hood. 
+Check this [Jupyter Notebook](https://github.com/codenation-dev/squad-5-ad-data-science-1/blob/master/analysis/Projeto%20Final%20-%20Squad5%20-%20v1.ipynb) for a deep explanation about what is happening under the hood. 
